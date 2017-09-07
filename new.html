@@ -12,43 +12,68 @@
 			background-color: darkgray;
 		}
 		#top{
-			width: 100%;
-			height: 12%;
-			background-color: red;
+			width: 85%;
+			height: 10%;
+			background-color: antiquewhite;
+			float: right
 		}
 		#menu{
 			width: 15%;
-			height: 82%;
-			background-color: yellow;
+			height: 100%;
+			background-color:#182B98;
 			float: left;
 		}
 		#main{
 			width: 85%;
-			height: 82%;
+			height: 90%;
 			background-color: white;
-			float: left;
+			float: right;
 		}
 		#foot{
-			width: 100%;
-			height: 6%;
+			width: 85%;
+			height: 3%;
 			background-color: blue;
-			clear: both;
+			position: fixed;bottom: 0;left: 15%;
+			
+		}
+		#top span{
+			padding-top: ;
+			color: ;
+		}
+		#main article{
+			float: right
+		}
+		#menu center>article{
+			width: 50%;
+			height: 100%;
+			background-color: aliceblue;
 		}
 	
 	</style>
 </head>
 <body>
 	<div id="container">
-		<div id="top">头部</div>
-		<div id="menu">左侧</div>
+		<div id="top">
+			<span>NEW PAGE</span>
+		</div>
+		<div id="menu">
+			<center>
+				<article>
+					123
+				</article>
+			</center>
+		</div>
 		<div id="main">
 			<p>
 				<form action="http://localhost/new/newfile.php" method="get">
-					用户名：<input type="text" name="name"><br>
-					密码：<input type="password" name="password"><br>
-					<input type="submit" value="确认">
+					用户名：<input type="text" name="name">密码：<input type="password" name="password"> <input type="submit" value="确认">
 				</form>
 			</p>
+			<article>
+				<object>
+					<embed src="https://ahaiz.github.io/myhtmlpage/iframe/Iframe.html" width="250" height="300">
+				</object>
+			</article>
 		</div>
 		<div id="foot">底部</div>
 	</div>
